@@ -6,8 +6,6 @@
 </p>
 
 ### attributes.txt <- file was taken from the website and it lists descriptions of all 128 attributes used to describe each community. Each attributes is separated by an endline and is the format of: 
-#### @attribute population numeric 
-#### @attribute householdsize numeric
 <p align="center">
   <b>@attribute population numeric  </b><br>
   <b>@attribute householdsize numeric </b><br>
