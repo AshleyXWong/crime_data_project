@@ -9,3 +9,6 @@ for(i in 1:length(attributes_list)){
 vector_attributes <- rev(vector_attributes)
 
 colnames(crime_data) <- vector_attributes
+
+summary_stats <- read.csv("summary_statistics.txt")
+
