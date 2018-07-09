@@ -12,3 +12,12 @@ colnames(crime_data) <- vector_attributes
 
 summary_stats <- read.csv("summary_statistics.txt")
 
+#returns Min, Max, Mean... for each attribute given such as population, racepctBlack...etc
+get_attribute_data <- function(attribute) {
+  summary_stats[attribute,]
+}
+
+#returns values of each attribute for a given statistic such as Min, Max, Mean...etc
+get_stats <- function(stat) {
+  summary_stats[,stat]
+}
